@@ -1,10 +1,13 @@
 package com.nageoffer.shortlink.admin;
 
-/**
- * Admin模块主类
- */
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@MapperScan("com.nageoffer.shortlink.admin.dao.mapper")
+@SpringBootApplication
 public class AdminApplication {
     public static void main(String[] args) {
-        System.out.println("ShortLink Admin Application Started!");
+        SpringApplication.run(AdminApplication.class, args);
     }
 }

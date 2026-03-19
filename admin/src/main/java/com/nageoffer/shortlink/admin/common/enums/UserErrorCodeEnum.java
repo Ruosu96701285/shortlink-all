@@ -1,4 +1,4 @@
-package com.nageoffer.shortlink.admin.enums;
+package com.nageoffer.shortlink.admin.common.enums;
 
 import com.nageoffer.shortlink.admin.common.convention.errorcode.IErrorCode;
 
